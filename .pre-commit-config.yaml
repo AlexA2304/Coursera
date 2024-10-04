@@ -1,0 +1,20 @@
+repos:
+ - repo: https://github.com/psf/black
+   rev: 24.4.2
+   hooks:
+     - id: black
+       files: ^grade-verification
+ - repo: https://github.com/charliermarsh/ruff-pre-commit
+   rev: v0.5.2
+   hooks:
+     - id: ruff
+       args: [--fix]
+       files: ^grade-verification
+ - repo: https://github.com/PyCQA/isort
+   rev: 5.13.2
+   hooks:
+     - id: isort
+       name: isort (python)
+       entry: isort
+       types: [python]
+       files: ^grade-verification
