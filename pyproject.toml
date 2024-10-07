@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "coursera"
+version = "0.1.0"
+description = ""
+authors = [
+    "Alexander Archer <>",
+    "Aniket Chauhan <>",
+    "Clement Canal <>",
+    "Jesse Black <>",
+    "Nasir Naqvi <nasirlnaqvi@gmail.com>"
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^24.8.0"
+ruff = "^0.6.8"
+isort = "^5.13.2"
+pre-commit = "^3.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
