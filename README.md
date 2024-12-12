@@ -24,7 +24,7 @@ The **MS-CS on Coursera Course Management: Automating Course Readiness and Monit
 - [**Poetry-dotenv plugin**](https://pypi.org/project/poetry-dotenv-plugin/) for managing environment variables.  
 
 
-## Building the project
+## Building The Project
 1.  Install Python 3.10 or higher
 2.  Install [Poetry](https://python-poetry.org/docs/) using any
     method; `pipx install poetry` is easiest if you already have pipx installed.
