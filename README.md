@@ -1,5 +1,27 @@
-# Coursera
-Capstone project (CSCI 4308) on Coursera in association with Dustin Hooks. Contributors Alexander Archer, Aniket Chauhan, Clement Canal, Jesse Black, and Nasir Naqvi
+# Coursera - MS-CS Course Management Automation  
+**Capstone Project (CSCI 4308)**  
+Developed in collaboration with **Dustin Hooks**  
+
+---
+
+## **About the Project**  
+The **MS-CS on Coursera Course Management: Automating Course Readiness and Monitoring** project focuses on optimizing the growing MS-CS program on Coursera. This project automates the extraction, validation, and monitoring of course content to ensure readiness, identify issues (e.g., broken links, missing multimedia), and streamline course management.  
+
+**Contributors:**  
+- **Alexander Archer**  
+- **Aniket Chauhan**  
+- **Clement Canal**  
+- **Jesse Black**  
+- **Nasir Naqvi**  
+
+---
+
+## **Getting Started**  
+
+### **Prerequisites**  
+- **Python 3.10 or higher**  
+- [**Poetry**](https://python-poetry.org/docs/) for dependency management.  
+- [**Poetry-dotenv plugin**](https://pypi.org/project/poetry-dotenv-plugin/) for managing environment variables.  
 
 
 ## Building the project
